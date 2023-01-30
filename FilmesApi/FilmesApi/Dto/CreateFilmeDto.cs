@@ -2,7 +2,7 @@
 
 namespace FilmesApi.Dto;
 
-public class FilmeDto
+public class CreateFilmeDto
 {
 
     [Required(ErrorMessage = "O titulo é obrigatorio")]
